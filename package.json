@@ -1,0 +1,22 @@
+{
+  "name": "n8n-railway-ghost-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n"
+  },
+  "keywords": [
+    "bot",
+    "automation",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "@sparticuz/chrome": "^124.0.0",
+    "puppeteer-core": "^23.0.0",
+    "n8n": "^1.50.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
