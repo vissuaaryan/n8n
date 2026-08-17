@@ -1,8 +1,0 @@
-node_modules/
-.nvmrc
-npm-debug.log*
-.DS_Store
-.env
-.secrets.json
-temp/
-*.log
