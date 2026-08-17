@@ -1,7 +1,8 @@
 node_modules/
-.secrets.json
-.env
-temp/
-*.log
+.nvmrc
 npm-debug.log*
 .DS_Store
+.env
+.secrets.json
+temp/
+*.log
