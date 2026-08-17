@@ -4,11 +4,12 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --quiet && \
-    npm cache clean --force
+# Install without freezing the dead brain of Railway server
+RUN npm install --omit=dev --quiet && \
+ npm cache clean --force --silent
 
 COPY . .
 
 EXPOSE $PORT
 
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
